@@ -1,0 +1,27 @@
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Power BI temp files
+*.tmp
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
